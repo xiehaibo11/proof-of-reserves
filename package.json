@@ -1,0 +1,14 @@
+{
+  "name": "@bcb-fx/proof-of-reserves",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BCB FX SHA-256 Merkle proof-of-reserves browser verifier",
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  }
+}
